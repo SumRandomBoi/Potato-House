@@ -1,0 +1,111 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    text-align: center;
+}
+
+.banner{
+    height: 250px;
+    
+    background-image: url(potato_house_images/bg4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner h1{
+    color: darkgoldenrod;
+    text-align: right;
+}
+.banner h2{
+    color: darkgoldenrod;
+    text-align: right;
+}
+
+hr{
+    color: red;
+}
+
+
+.nav{
+    border: 2px solid darkorange;
+    text-align: center;
+}
+
+.nav ul li{
+    
+    list-style-type: none;
+    display: inline-block;
+    width: 25%;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid white;
+    color: lime;
+}
+
+#vegetable{
+    text-align: center;
+}
+#vegetable .card{
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    border: 2px white solid;
+    display: inline-block;
+    margin: 5px 5px;
+    overflow: auto;
+}
+
+#recipe{
+    text-align: center;
+}
+#recipe .card{
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    border: 2px white solid;
+    display: inline-block;
+    margin: 5px 5px;
+    overflow: auto;
+}
+
+.card img{
+    width: 100%;
+}
+.card p{
+    text-align: center;
+}
+.card ul li{
+    text-align: left;
+    font-weight: bold;
+}
+
+.return{
+    text-align:center;
+    margin: 25px;
+}
+.return a{
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid white;
+    color: black;
+}
+
+.price{
+    color: red;
+    font: bold;
+}
